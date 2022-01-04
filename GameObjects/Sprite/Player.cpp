@@ -216,10 +216,6 @@ void Player::updateStat()
    defense = PLAYER_DEFENSE + pointDefense;
    bullet->setAttack(bullet->getAttack() + pointAttack);
    life = PLAYER_LIFE + UPTDATE_LIFE*pointLife;
-<<<<<<< HEAD
-=======
-   cout<<life<<endl;
->>>>>>> 7e4874d20db622347b6835912c3b633d6c47e90c
 }
 
 string Player::toString()
