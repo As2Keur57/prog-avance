@@ -67,13 +67,13 @@ void Parser::savePlayer(Player* p)
         file << "level : " << p->getLevel() << endl;
         file << "experience : " << p->getExperience() << endl;
         file << "pointLevel : " << p->getPointLevel() << endl;
-<<<<<<< HEAD
+
         file << "pointDef : " << p->getPointDefense() << endl;
         file << "pointAtk : " << p->getPointAttack() << endl;
-=======
+
         file << "pointDefense : " << p->getPointDefense() << endl;
         file << "pointAttack : " << p->getPointAttack() << endl;
->>>>>>> 7e4874d20db622347b6835912c3b633d6c47e90c
+
         file << "pointLife : " << p->getPointLife() << endl;
         file << "}" << endl;
     }

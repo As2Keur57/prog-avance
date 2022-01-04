@@ -2,7 +2,7 @@
 
 Menu::Menu(Point* pos)
 {
-    window = new sf::RenderWindow(sf::VideoMode(pos->getX()*TEXTURE_SIZE, pos->getX()*TEXTURE_SIZE), "BRUni");
+    window = new sf::RenderWindow(sf::VideoMode(pos->getX()*TEXTURE_SIZE, pos->getX()*TEXTURE_SIZE), "Survie");
 
     Map* map = new Map(pos);
     map->generateEffective();
@@ -166,7 +166,7 @@ int Menu::handleMenu(string* pseudo)
         multiPlayer.setString("Multi Player");
         update.setString("Update");
         quit.setString("Quit ->");
-        title.setString("BRUni");
+        title.setString("SURVIE");
         uuid.setString("Enter your pseudo !!!");
 
         singlePlayer.setPosition(xWindow/2 - (xWindow*0.1042), yWindow/3);

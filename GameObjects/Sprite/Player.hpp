@@ -201,11 +201,6 @@ class Player : public Sprite
              */
             void setPointAttack(int nb);
 
-<<<<<<< HEAD
-            int getPointLife();
-            void setPointLife(int nb);
-
-=======
             /*
              * Return the player point life 
              * \return int 
@@ -221,7 +216,6 @@ class Player : public Sprite
             /*
              * Update the player life, defense and attack according to point life, point defense and point attack
              */
->>>>>>> 7e4874d20db622347b6835912c3b633d6c47e90c
             void updateStat();
 
             /**
