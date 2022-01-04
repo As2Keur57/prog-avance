@@ -2,7 +2,7 @@ CPP=g++ #CPP compilator
 FLAGS=-W -Wall -ansi #Include all warnings
 LDFLAGS=-lsfml-graphics -lsfml-window -lsfml-system -lmysqlcppconn #Include SFML library and mysql overlay
 EXEC=main #First column to execute is main
-SRC=main.cpp Game.cpp Games/SingleGame.cpp Games GameObject.cpp Menu.cpp GameObjects/Map.cpp GameObjects/Sprite.cpp GameObjects/Sprite/Bullet.cpp GameObjects/Sprite/Player.cpp Utils/Point.cpp Utils/Node.cpp Utils/Parser.cpp db/Mysql.cpp#Sourcefile is main.cpp
+SRC=main.cpp Game.cpp Games/SingleGame.cpp GameObject.cpp Menu.cpp GameObjects/Map.cpp GameObjects/Sprite.cpp GameObjects/Sprite/Bullet.cpp GameObjects/Sprite/Player.cpp Utils/Point.cpp Utils/Node.cpp Utils/Parser.cpp db/Mysql.cpp#Sourcefile is main.cpp
 OBJ= $(SRC:.cpp=.o)
 NAME=app
 
